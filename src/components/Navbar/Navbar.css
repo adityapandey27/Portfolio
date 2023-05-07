@@ -4,9 +4,15 @@
   justify-content: space-between;
   height: 70px;
   position: fixed;
-  background: rgb(10, 25, 47);
   padding: 0 70px;
   z-index: 1;
+
+  background: rgba( 10, 25, 47, 0.55 );
+box-shadow: 0 28px 102px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 13px );
+-webkit-backdrop-filter: blur( 13px );
+border-radius: 0px 0px 30px 30px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .navbar-right ul {
   display: flex;
@@ -21,7 +27,6 @@
   width: 50%;
   height: 50%;
 }
-
 .navbar-right {
   width: 60%;
   font-size: 13px;

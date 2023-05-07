@@ -38,11 +38,12 @@ function Landing() {
         <p>It's me</p>
       </div>
       <div className="Landing-About">Aditya Pandey</div>
-      <div className="Landing-About-1">I like to develop new things</div>
+      <div className="Landing-About-1">A web developer based in Ratlam, India</div>
 
       <div className="Landing-About-Para">
-        A Frontend focused Web Developer building the Frontend of Websites and
-        Web Applications that leads to the success of the overall product
+        I love building beautiful and responsive web apps that leads to the success of the overall product.
+        {/* A Frontend focused Web Developer building the Frontend of Websites and
+        Web Applications that leads to the success of the overall product */}
       </div>
 
       <div className="Landing-Button-Container">

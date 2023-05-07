@@ -1,0 +1,60 @@
+.Experience{
+    padding-top: 250px;
+  margin: 0 auto;
+  width: 70%;
+}
+.Experience section{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.Experience-Left{
+    width: 20%;
+    font-size: 20px;
+}
+.Experience-Right{
+    width: 60%;
+}
+.Right-Head{
+    font-size: 22px;
+    text-align: left;
+}
+.Right-Head span{
+    color:#ccd6f6;
+    
+}
+.Right-Head a{
+    text-decoration: none;
+    color: #64ffda;
+    margin-left: 10px;
+}
+.Right-Head a:hover{
+    color: #64ffdbcf;
+}
+
+.Right-Head div{
+    font-size: 15px;
+    margin-top: 5px;
+    color: #a8b2d1;
+}
+
+.Right-List-Container{
+    text-align: left;
+    width: 75%;
+    margin-top: 30px;
+}
+.Right-List{
+    margin: 10px 0;
+    color: #a8b2d1;
+    display: flex;
+    flex-direction: row;
+}
+.Right-List span{
+    color: #64ffda;
+    display: block;
+    margin-right: 20px;
+    font-size: 22px;
+    height: fit-content;
+    margin-top: -4px;
+}

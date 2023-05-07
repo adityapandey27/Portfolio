@@ -1,0 +1,25 @@
+.Skill {
+  background-color: rgb(10, 25, 47);
+  padding-top: 300px;
+  color: white;
+  margin: 0 auto;
+  width: 55%; 
+}
+.Skill section{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  gap: 200px;
+}
+.Skill section div{
+  width: 100px;
+  height: 100px;
+  
+}
+.Skill section div img{
+ height: 100px;
+ width: 100px; 
+ filter:grayscale(80%);
+ cursor: pointer;
+}
+

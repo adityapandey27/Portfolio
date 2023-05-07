@@ -1,0 +1,17 @@
+.Project{
+    background-color: rgb(10, 25, 47);
+    padding-top: 250px;
+    color: white;
+    margin: 0 auto 0 auto;
+    width: 55%; 
+    padding-bottom: 400px
+    
+}
+.Project-Card{
+    display: flex;
+    flex-direction: row;
+}
+.Project-Card img{
+    width: 100px;
+    height: 100px;
+}

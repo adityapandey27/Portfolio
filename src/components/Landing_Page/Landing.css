@@ -29,13 +29,13 @@
 .Landing-About {
   margin-top: 20px;
   color: rgb(204, 215, 247);
-  font-size: 80px;
+  font-size: 60px;
   font-weight: bold;
 }
 
 .Landing-About-1 {
   color: rgb(136, 146, 176);
-  font-size: 80px;
+  font-size: 60px;
 }
 .Landing-About-Para {
   margin-top: 20px;
@@ -63,5 +63,5 @@
   transition: translate 0.3s ease-in-out;
 }
 .Landing-Button:hover {
-  translate: -3px -3px 0;
+  translate: -5px -5px 0;
 }

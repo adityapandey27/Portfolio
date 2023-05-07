@@ -1,8 +1,75 @@
 .About {
-  background-color: rgb(10, 25, 47);
-  height: 100vh;
-  padding-top: 20px;
-  color: white;
+  /* height: 100vh; */
+  padding-top: 200px;
   margin: 0 auto;
   width: 70%;
+}
+.About section{
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  text-align: 20px;
+  color: rgb(136, 146, 176);
+}
+.About-Left{
+  width: 50%;
+  text-align:start;
+  line-height: 25px;
+  
+}
+.About-Right{
+  width: 32%;
+  margin: 0 auto;
+  position: relative;
+  
+}
+.About-Left-Highlight{
+  color: rgb(100, 255, 218);
+}
+
+.About-Button-Container {
+  background-color: rgb(100, 255, 218);
+  width: fit-content;
+  height: fit-content;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.About-Button {
+  cursor: pointer;
+  background-color: rgb(10, 25, 47);
+  color: rgb(100, 255, 218);
+  padding: 20px 30px;
+  font-size: 14px;
+  border: 1px solid rgb(100, 255, 218);
+  border-radius: 5px;
+  transition: translate 0.3s ease-in-out;
+}
+.About-Button:hover {
+  translate: -5px -5px 0;
+}
+.About-Right-Div{
+  width: 300px;
+  height: 300px;
+  border:3px solid rgb(100, 255, 218);
+  border-radius: 5px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  
+}
+
+.About-Right-Div img{
+  width: 100%;
+  height: 100%;
+  background-color:rgb(10, 25, 47) ;
+  border-radius: 5px;
+  transition: translate 0.3s ease-in-out;
+  translate: -15px -15px 0;
+}
+.About-Right-Div img:hover{
+  translate: -20px -20px 0;
+  margin: auto 0;
 }
