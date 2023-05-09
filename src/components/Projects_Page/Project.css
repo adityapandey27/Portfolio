@@ -4,14 +4,82 @@
     color: white;
     margin: 0 auto 0 auto;
     width: 55%; 
-    padding-bottom: 400px
-    
 }
 .Project-Card{
+    margin-top: 30px;    
+}
+.Project-Each-Card{
     display: flex;
     flex-direction: row;
+    width: 1000px;
+    max-height: 300px;
+    min-height: 350px;
 }
-.Project-Card img{
-    width: 100px;
-    height: 100px;
+.Project-Left{
+    transition: transform ease-in-out .3s;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    margin: auto 0;
+    filter:grayscale(60%);
+}
+.Project-Left:hover{
+transform: scale(1.03)
+}
+.Project-Right{
+    display: flex;
+    flex-direction:column;
+    margin: auto 0;
+    
+}   
+.Project-Right1{
+    text-align: right;
+}
+.Project-Right2{
+    text-align: left;
+
+}
+.Project-Description{
+    font-size: 17px;
+    color: #a8b2d1;
+    background-color: #112240;
+    padding: 25px;
+    border-radius: 5px;
+    z-index: 1;
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+    position: relative;
+}
+.Project-Description1{
+    margin-left: -70px;
+}
+.Project-Description2{
+    margin-right: -70px;
+}
+.Project-Skill-Used ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    
+}
+.Project-Skill-Used ul li{
+    color: #ccd6f6;
+    width: 550px;
+}
+
+.Project-Skill-Used2 ul li{
+    /* margin-right: -36px; 
+    */
+    /* text-align: right; */
+}
+.Project-Links a{
+    /* size:2px; */
+    font-size: 20px;
+    margin-left: 20px;
+    color:#a8b2d1;
+}
+.Project-Links a:hover{
+    color:#64ffda ;
+}
+.List2{
+    margin-left: -30px;
 }
