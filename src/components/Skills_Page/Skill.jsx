@@ -1,23 +1,24 @@
 import React from "react";
 import "./Skill.css";
-import a1 from "../../assets/css.png";
-import a2 from "../../assets/git.png";
+import a1 from "../../assets/react.png";
+import a2 from "../../assets/js.png";
 import a3 from "../../assets/html.png";
-import a4 from "../../assets/js.png";
-import a5 from "../../assets/react.png";
-import a6 from "../../assets/vs.png";
-import a7 from "../../assets/bootstrap2.png";
-import a8 from "../../assets/github.png";
-import a9 from "../../assets/Tailwind.png";
+import a4 from "../../assets/css.png";
+import a5 from "../../assets/bootstrap2.png";
+import a6 from "../../assets/Tailwind.png";
+import a7 from "../../assets/git.png";
+import a8 from "../../assets/vs.png";
+import a9 from "../../assets/github.png";
+
 function Skill() {
   const images = [
     {
       img: a1,
-      name: "CSS3",
+      name: "React JS",
     },
     {
       img: a2,
-      name: "Git",
+      name: "JavaScript",
     },
     {
       img: a3,
@@ -25,27 +26,27 @@ function Skill() {
     },
     {
       img: a4,
-      name: "JavaScript",
+      name: "CSS3",
     },
     {
       img: a5,
-      name: "React JS",
-    },
-    {
-      img: a6,
-      name: "VS",
-    },
-    {
-      img: a7,
       name: "Bootstrap",
     },
     {
+      img: a6,
+      name: "Tailwind CSS",
+    },
+    {
+      img: a7,
+      name: "Git",
+    },
+    {
       img: a8,
-      name: "Github",
+      name: "Vs",
     },
     {
       img: a9,
-      name: "Tailwind CSS",
+      name: "Github",
     }
   ];
   return (
@@ -55,7 +56,7 @@ function Skill() {
           color: "rgb(100, 255, 218)",
           display: "flex",
           flexDirection: "row",
-          fontSize: "32px",
+          fontSize: "30px",
         }}
       >
         02.{" "}
@@ -69,14 +70,7 @@ function Skill() {
           Skills & Tools
         </span>
         <div
-          style={{
-            border: "1px solid rgb(136,147,177)",
-            width: "300px",
-            borderBottom: "none",
-            borderLeft: "none",
-            borderRight: "none",
-            margin: "auto 0 auto 30px",
-          }}
+          className="Head-Line"
         ></div>
       </div>
 

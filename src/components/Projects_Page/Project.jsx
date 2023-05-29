@@ -24,22 +24,33 @@ import { BiLinkExternal } from 'react-icons/bi';
 
 function Project() {
     const projectArray = [
-        { id: 1, title: 'Hayneedle', image:img1,description:"I developed the front page of the Hayneedle website.My project has a nice component where we can customizethe image by replacing the car, boy, tree, background, boat,fish, etc., of their choice.",
+        { id: 1, title: 'Hayneedle', image:img1,description:
+        "I have developed the front page of the Hayneedle website. My project includes a unique feature that allows users to customize the images by replacing various elements such as the car, boy, tree, background, boat, fish, etc., with ones of their choice.",
           skills:{
             newSkills:["React JS", "CSS 3", "Bootstrap", "Vs Code"]
           },git:"https://github.com/adityapandey27/hayneedle",host:"https://hayneedle-clone.netlify.app/"
         },
-        { id: 2, title: 'Mural', image:img10,description:"I developed the front page of the Hayneedle website.My project has a nice component where we can customizethe image by replacing the car, boy, tree, background, boat,fish, etc., of their choice.",
-          skills:{newSkills:["React JS", "CSS 3", "Vs Code"],git:"https://mural-clone.netlify.app/",host:"https://mural-clone.netlify.app/"}
+        { id: 2, title: 'Mural', image:img10,description:
+        "I developed the front page of the Mural website. This website is visually apealling.",
+          skills:{
+            newSkills:["React JS", "CSS 3", "Vs Code"]
+          },git:"https://github.com/adityapandey27/mural",host:"https://mural-clone.netlify.app/"
         },
-        { id: 3, title: 'Car Rental', image:img18,description:"I developed the front page of the Hayneedle website.My project has a nice component where we can customizethe image by replacing the car, boy, tree, background, boat,fish, etc., of their choice.",
-          skills:{newSkills:["React JS", "CSS 3", "Bootstrap", "Vs Code"],git:"https://github.com/adityapandey27/Rento4",host:"https://github.com/adityapandey27/Rento4"}
+        { id: 3, title: 'Car Rental', image:img18,description:
+        "I have developed a clone of Car Rento Movies where users can visit each page and view the content.",
+          skills:{newSkills:["React JS", "CSS 3", "Bootstrap", "Vs Code"]},
+          git:"https://github.com/adityapandey27/Rento4",
+          host:"https://rento4.netlify.app/"
         },
-        { id: 4, title: 'Tindog', image:img19,description:"I developed the front page of the Hayneedle website.My project has a nice component where we can customizethe image by replacing the car, boy, tree, background, boat,fish, etc., of their choice.",
-          skills:{newSkills:["HTML", "CSS 3","Java Script","Bootstrap", "Vs Code"],git:"",host:""}
+        { id: 4, title: 'Tindog', image:img19,description:"It is a simple and clean website consisting of four pages. The website has been developed using HTML, CSS, and JavaScript.",
+          skills:{newSkills:["HTML", "CSS 3","Java Script", "Vs Code"]},
+          git:"https://github.com/adityapandey27/tindog",
+          host:""
         },
-        { id: 5, title: 'Movies', image:img7,description:"I developed the front page of the Hayneedle website.My project has a nice component where we can customizethe image by replacing the car, boy, tree, background, boat,fish, etc., of their choice.",
-          skills:{newSkills:["React JS", "Tailwind", "TMDB Api", "Vs Code"],git:"https://github.com/adityapandey27/movie",host:"https://github.com/adityapandey27/movie"}
+        { id: 5, title: 'Movies', image:img7,description:"It is a platform where users can view the top trending movies along with their titles and banners. If a user likes a particular movie, they can tag it as a favorite and access their list of favorites in a separate section called 'Favorites.' In this section, movies can be compared based on their ratings and categories.",
+          skills:{newSkills:["React JS", "Tailwind", "TMDB Api", "Vs Code"]},
+          git:"https://github.com/adityapandey27/movie",
+           host:"https://imdb-clone-feedbox.netlify.app"
         },
       ];
   return (
@@ -53,24 +64,14 @@ function Project() {
         }}
       >
         04.{" "}
+        
         <span
-          style={{
-            color: "rgb(204,215,247)",
-            fontWeight: "bold",
-            marginLeft: "20px"
-          }}
+        className='A'
         >
           Projects I have Built
         </span>
-        <div
-          style={{
-            border: "1px solid rgb(136,147,177)",
-            width: "300px",
-            borderBottom: "none",
-            borderLeft: "none",
-            borderRight: "none",
-            margin: "auto 0 auto 30px"
-          }}
+        <div className='Head-Line'
+          
         ></div>
       </div>
       <section className='Projects-Container'>
@@ -78,13 +79,14 @@ function Project() {
          projectArray.map((obj,index)=>
          <div key={obj.id} className='Project-Card'>
             {
-                index%2==0?<div  className='Project-Each-Card'>
+                index%2==0 ?
+                <div  className='Project-Each-Card'>
                     
                     <img className='Project-Left' 
                      onMouseOver={(e) => (e.target.style.filter = "none")}
                      onMouseOut={(e) => (e.target.style.filter = "grayscale(80%)")}
-                    alt="" src={obj.image}  style={{width:"60%",height:""}}/>
-                    <div className='Project-Right Project-Right1' style={{width:"40%",height:""}}>
+                    alt="" src={obj.image}  />
+                    <div className='Project-Right Project-Right1' >
                       
                       <div style={{fontSize:"13px",color:"#64ffda"}}>Featured Project</div>
                       <h1 style={{color:"#ccd6f6"}}>{obj.title}</h1>
@@ -98,9 +100,7 @@ function Project() {
                           {
                             obj.skills.newSkills.map((data,index)=>(<li key={index}>{data}</li>))
                           }
-                          {/* <li>CSS</li>
-                          <li>Bootstrap</li>
-                          <li>Vs Code</li> */}
+                          
                         </ul>
                       </div>
                       <div className='Project-Links'>
@@ -116,8 +116,8 @@ function Project() {
                       </div>
                       
                     </div>:
-                    <div className='Project-Each-Card'>
-                    <div className='Project-Right Project-Right2' style={{width:"40%",height:""}}>
+                    <div className='Project-Each-Card Project-Each-Card1'>
+                    <div className='Project-Right Project-Right2' >
                       
                     <div style={{fontSize:"13px",color:"#64ffda"}}>Featured Project</div>
                     <h1 style={{color:"#ccd6f6"}}>{obj.title}</h1>
@@ -146,10 +146,10 @@ function Project() {
                       </div>
                       </div>
                       
-                    <img className='Project-Left' 
+                    <img className='Project-Left Project-Left1' 
                      onMouseOver={(e) => (e.target.style.filter = "none")}
                      onMouseOut={(e) => (e.target.style.filter = "grayscale(60%)")}
-                    alt="" src={obj.image} style={{width:"60%",height:""}}/>
+                    alt="" src={obj.image}/>
                     </div>
             }
         

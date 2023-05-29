@@ -8,7 +8,7 @@ function Contact_Us() {
           color: "rgb(100, 255, 218)",
           display: "flex",
           flexDirection: "row",
-          fontSize: "32px",
+          fontSize: "30px",
           margin:"0 auto",
           width:"fit-Content"
         }}
@@ -25,12 +25,7 @@ function Contact_Us() {
         </span>
         <div
           style={{
-            border: "1px solid rgb(136,147,177)",
-            width: "300px",
-            borderBottom: "none",
-            borderLeft: "none",
-            borderRight: "none",
-            margin: "auto 0 auto 30px"
+            
           }}
         ></div>
       </div>
@@ -39,19 +34,10 @@ function Contact_Us() {
       <div className="Contact-Us-Button-Container">
         
         <button className="Contact-Us-Button"
-        onClick={()=>window.open('mailto:recipient@example.com')}
+        onClick={()=>window.open('mailto:adityapandey272002@gmail.com')}
         >Say Hello</button>
       </div>
-      {/* <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <h2>Front side</h2>
-          </div>
-        <div class="flip-card-back">
-        <h2>Back side</h2>
-       </div>
-      </div>
-    </div> */}
+      
     </div>
   )
 }

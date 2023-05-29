@@ -1,7 +1,10 @@
 .Experience{
-    padding-top: 250px;
+    padding-top: 220px;
   margin: 0 auto;
   width: 70%;
+}
+.A{
+    font-size: 30px;
 }
 .Experience section{
     color: white;
@@ -57,4 +60,66 @@
     font-size: 22px;
     height: fit-content;
     margin-top: -4px;
+}
+.Head-Line{
+    width: 300px;
+    border: 1px solid rgb(136,147,177);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin: auto 0 auto 30px;
+  }
+  .aa{
+    color: rgb(204,215,247);
+    font-weight: bold;
+    margin-left: 20px;
+  }
+
+@media only screen and (max-width: 767px) {
+    .Experience{
+      padding-top: 250px;
+      margin: 0 auto;
+      width: 80%;
+    }
+    .A{
+     font-size: 27px;
+    }
+    .Head-Line{
+        display: none;
+    }
+    .Experience-Left
+    {
+        display: none;  
+    }
+    .Experience-Right{
+        width: 100%;
+    }
+    .Right-Head{
+        font-size: 13px;
+        text-align: left;
+    }
+    .Right-Head div{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .Right-List-Container{
+        width: 100%;
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    .Right-List{
+        margin: 20px 0;
+    }
+    .Right-List span{
+        margin-right: 10px;
+        margin-top: -4px;
+    }
+    .aa{
+        margin-left: 5px;
+      }
+    
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
 }

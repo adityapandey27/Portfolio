@@ -3,7 +3,7 @@
     padding-top: 250px;
     color: white;
     margin: 0 auto 0 auto;
-    width: 55%; 
+    width: 75%; 
 }
 .Project-Card{
     margin-top: 30px;    
@@ -11,14 +11,15 @@
 .Project-Each-Card{
     display: flex;
     flex-direction: row;
-    width: 1000px;
-    max-height: 300px;
-    min-height: 350px;
+    width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+    margin-top: 100px;
 }
 .Project-Left{
     transition: transform ease-in-out .3s;
     height: 100%;
-    width: 100%;
+    width: 60%;
     border-radius: 5px;
     margin: auto 0;
     filter:grayscale(60%);
@@ -29,8 +30,8 @@ transform: scale(1.03)
 .Project-Right{
     display: flex;
     flex-direction:column;
-    margin: auto 0;
-    
+    margin: auto 0;  
+    width: 40%;  
 }   
 .Project-Right1{
     text-align: right;
@@ -39,21 +40,30 @@ transform: scale(1.03)
     text-align: left;
 
 }
+.Head-Line{
+    border: 1px solid rgb(136,147,177);
+    width: 300px;
+    border-bottom:none;
+    border-left: none;
+    border-right: none;
+    margin: auto 0 auto 30px;
+}
 .Project-Description{
     font-size: 17px;
     color: #a8b2d1;
-    background-color: #112240;
-    padding: 25px;
+    /* background-color: #112240; */
+    padding: 25px 0px 25px 0;
+    
     border-radius: 5px;
     z-index: 1;
     box-shadow: 0 10px 30px -15px var(--navy-shadow);
     position: relative;
 }
 .Project-Description1{
-    margin-left: -70px;
+    margin-left: -0px;
 }
 .Project-Description2{
-    margin-right: -70px;
+    margin-right: 0px;
 }
 .Project-Skill-Used ul{
     list-style: none;
@@ -83,3 +93,82 @@ transform: scale(1.03)
 .List2{
     margin-left: -30px;
 }
+
+.A{
+    color:rgb(204,215,247);
+    font-weight:bold;
+    margin-left:20px;
+}
+/* For Mobile */
+@media only screen and (max-width: 767px) {
+    /* Styles for small screens */
+    .Project{
+        padding-top: 200px;
+    }
+    .Project-Each-Card{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Head-Line{
+        display: none;
+    }
+    .A{
+        margin-left:10px;
+    }
+    .Project-Card{
+        margin-top: 30px;    
+    }
+    .Project-Each-Card{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    .Project-Each-Card1{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .Project-Left{
+        width: 100%;
+    }
+    
+    .Project-Right{
+        width: 100%;
+    }   
+    .Head-Line{
+        border: 1px solid rgb(136,147,177);
+        width: 300px;
+    }
+    .Project-Description{
+        font-size: 17px;
+        color: #a8b2d1;
+        padding: 0px 0px 5px 0;
+    }
+    .Project-Description1{
+        margin-left: -0px;
+    }
+    .Project-Description2{
+        margin-right: 0px;
+    }
+   
+    .Project-Skill-Used ul li{
+        color: #ccd6f6;
+        width: 100%;
+    }
+}
+
+/* Fot Tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .Project-Each-Card{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Project-Left{
+        width: 100%;
+    }
+  
+
+}
+  

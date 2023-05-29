@@ -17,6 +17,14 @@
   line-height: 25px;
   
 }
+.Head-Line{
+  width: 300px;
+  border: 1px solid rgb(136,147,177);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  margin: auto 0 auto 30px;
+}
 .About-Right{
   width: 32%;
   margin: 0 auto;
@@ -72,4 +80,57 @@
 .About-Right-Div img:hover{
   translate: -20px -20px 0;
   margin: auto 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .About {
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 80%;
+  }
+  .Head-Line{
+    width: 80px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    margin: auto 0 auto 10px;
+  }
+  .About section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .About-Left{
+    width: 100%;
+    text-align:start;
+    line-height: 25px; 
+    font-size: 15px;
+  }
+  .About-Right{
+    width: 100%;
+    margin: 0 auto;
+    /* position: relative;  */
+  }
+  .About-Right-Div{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;    
+  }
+  
+  .About-Right-Div img{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(10, 25, 47) ;
+    border-radius: 5px;
+    transition: translate 0.3s ease-in-out;
+    translate: -15px -15px 0;
+  }
+  .About-Right-Div img:hover{
+    translate: -20px -20px 0;
+    margin: auto 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
 }

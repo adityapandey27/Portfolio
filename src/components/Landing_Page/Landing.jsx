@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 import { BiComment } from "react-icons/bi";
 import { GoComment } from "react-icons/go";
+
 import { MdModeComment } from "react-icons/md";
 import "./Landing.css";
 
@@ -32,6 +33,8 @@ function Landing() {
 
   return (
     <div className="Landing">
+           
+
       <h1 className="Landing-Greating">{currentGreeting}</h1>
       <div className="Landing-Intro">
         <MdModeComment style={{ width: "70px", height: "70px" }} />
@@ -47,8 +50,11 @@ function Landing() {
       </div>
 
       <div className="Landing-Button-Container">
-        <button className="Landing-Button">Check out my Projects!</button>
+        <a  href="https://github.com/adityapandey27" target="blank" >
+          Check out my Projects!
+        </a>
       </div>
+      
     </div>
   );
 }

@@ -22,4 +22,49 @@
  filter:grayscale(80%);
  cursor: pointer;
 }
+.Head-Line{
+  width: 300px;
+  border: 1px solid rgb(136,147,177);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  margin: auto 0 auto 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  .Skill {
+    padding-top: 400px;
+    width: 80%; 
+  }
+  .Head-Line{
+    width: 150px;
+    margin: auto 0 auto 10px;
+  }
+
+  .Skill section{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    padding: 40px 0 0 0;
+    gap: 80px;
+  }
+  .Skill section div{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;    
+    margin: auto; 
+  }
+  .Skill section div img{
+   height: 70px;
+   width: 70px; 
+   cursor: pointer;
+   
+  }
+  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
 

@@ -52,16 +52,64 @@
   margin-top: 50px;
   border-radius: 5px;
 }
-.Landing-Button {
+.Landing-Button-Container a{
   cursor: pointer;
   background-color: rgb(10, 25, 47);
-  color: rgb(100, 255, 218);
+  color: rgb(204, 215, 247);
   padding: 20px 30px;
   font-size: 14px;
   border: 1px solid rgb(100, 255, 218);
   border-radius: 5px;
   transition: translate 0.3s ease-in-out;
+  text-decoration: none;
 }
-.Landing-Button:hover {
-  translate: -5px -5px 0;
+.Landing-Button-Container a:hover {
+  color: rgb(100, 255, 218);
+} 
+
+
+/* For mobile view */
+@media only screen and (max-width: 767px) {
+  .Landing {
+    padding-top: 70px;
+    width: 80%;
+    height: 90vh;
+  }
+  .Landing-About {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  
+  .Landing-About-1 {
+    font-size: 30px;
+  }
+  .Landing-About-Para {
+    margin-top: 20px;
+    font-size: 15px;
+    width: 100%;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .Landing {
+    width: 65%;
+    height: 50vh;
+  }
+  .Landing-About {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 35px;
+  }
+  
+  .Landing-About-1 {
+    font-size: 35px;
+  }
+  .Landing-About-Para {
+    margin-top: 20px;
+    font-size: 20px;
+    width: 100%;
+    line-height: 25px;
+  }
 }

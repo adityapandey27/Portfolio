@@ -1,5 +1,7 @@
 import "./About.css";
-import me from "../../assets/me.jpg";
+import me from "../../assets/1copy.jpg";
+import me1 from "../../assets/image.png";
+
 function About() {
   return (
     <div className="About">
@@ -8,7 +10,7 @@ function About() {
           color: "rgb(100, 255, 218)",
           display: "flex",
           flexDirection: "row",
-          fontSize: "32px"
+          fontSize: "30px"
         }}
       >
         01.{" "}
@@ -21,21 +23,13 @@ function About() {
         >
           About Me
         </span>
-        <div
-          style={{
-            border: "1px solid rgb(136,147,177)",
-            width: "300px",
-            borderBottom: "none",
-            borderLeft: "none",
-            borderRight: "none",
-            margin: "auto 0 auto 30px"
-          }}
+        <div className="Head-Line"
         ></div>
       </div>
       <section>
         <div className="About-Left">
           <p>Hello! My name is <span className="About-Left-Highlight">Aditya Pandey</span>. I'm a Frontend Web Developer 
-            building the Front-end of Websites and Web Applications that leads
+            building the Web Applications that leads
              to the success of the overall product. Almost I have a <span className="About-Left-Highlight"> experience 
              of 5 months </span>in building responsive frontend web app.
           </p>
@@ -48,9 +42,9 @@ function About() {
           If you have a good opportunity that matches my skills and experience 
           then don't hesitate to contact me.
           </p>
-          <div className="About-Button-Container">
+          {/* <div className="About-Button-Container">
             <button className="About-Button">Contact Me!</button>
-          </div>
+          </div> */}
         </div>
         <div className="About-Right">
           

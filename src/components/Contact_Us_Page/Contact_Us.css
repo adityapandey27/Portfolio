@@ -39,30 +39,36 @@
     translate: -5px -5px 0;
   }
 
-  /* .flip-card {
-    perspective: 1000px; 
+  .Head-Line{
+    border: 1px solid rgb(136,147,177);
+            width:300px;
+            border-bottom: none;
+            border-left:none;
+            border-right: none;
+            margin: auto 0 auto 30px;
   }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
+
+  @media only screen and (max-width: 767px) {
+    .Contact_Us{
+      padding-top: 120px;
+      width: 80%;
+      padding-bottom: 0px;
   }
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg); 
+  .Contact_Us section{
+    font-size: 25px;
+    margin-top: 20px;
   }
-  
-  .flip-card-front,
-  .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden; 
+  .Contact_Us p{
+    font-size: 15px;
+    width: 70%;
+    margin: 25px auto 0 auto;
   }
-  
-  .flip-card-back {
-    transform: rotateY(180deg); 
-  } */
+  .Contact-Us-Button-Container {
+      margin: 30px auto 0 auto;
+      border-radius: 5px;
+    }
+ .Head-Line{
+      display: none;
+    }
+  }
+ 
