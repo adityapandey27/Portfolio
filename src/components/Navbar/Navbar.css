@@ -95,8 +95,11 @@
 }
 .Fixed-Social1{
   position: fixed;
+  display: none;
   color:#a8b2d1;
-  margin: 550px 0 0 1150px;
+  /* margin: 550px 0 0 1150px; */
+  /* right: -20; */
+  bottom: 0;
   transform: rotate(90deg);
   display: flex;
 }
@@ -112,7 +115,7 @@
 .Fixed-Social1 hr{
   /* display: flex; */
   border: 2px solid a8b2d1;
-  width: 200px;
+  width: 500px;
 }
 .Fixed-Social div{
   width: 20px;
