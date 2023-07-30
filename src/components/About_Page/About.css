@@ -56,8 +56,8 @@
   translate: -5px -5px 0;
 }
 .About-Right-Div{
-  width: 300px;
-  height: 300px;
+  width: 180px;
+  height: 250px;
   border:3px solid rgb(100, 255, 218);
   border-radius: 5px;
   position: absolute;
@@ -112,7 +112,7 @@
     /* position: relative;  */
   }
   .About-Right-Div{
-    width: 200px;
+    width: 150px;
     height: 200px;
     margin-top: 50px;    
   }

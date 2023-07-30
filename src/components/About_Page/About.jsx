@@ -49,7 +49,7 @@ function About() {
         <div className="About-Right">
           
           <div className="About-Right-Div">
-            <img  src={me} alt="Aditya image"></img>
+            <img  src={me1} alt="Aditya image"></img>
           </div>
           
         </div>
