@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbf56c69.css",
-    "main.js": "/static/js/main.f629a77f.js",
+    "main.css": "/static/css/main.14b03ef5.css",
+    "main.js": "/static/js/main.d7e9ced2.js",
     "static/media/HayNeedle1.jpg": "/static/media/HayNeedle1.7985ad997b5babfb4878.jpg",
     "static/media/image.png": "/static/media/image.08e57b78480eb4388904.png",
     "static/media/Movies1.jpg": "/static/media/Movies1.d212ba992605c76ba862.jpg",
@@ -34,11 +34,11 @@
     "static/media/html.png": "/static/media/html.c77fed674c34630bf6ef.png",
     "static/media/logo.png": "/static/media/logo.7b336b8ec6e898091e24.png",
     "index.html": "/index.html",
-    "main.dbf56c69.css.map": "/static/css/main.dbf56c69.css.map",
-    "main.f629a77f.js.map": "/static/js/main.f629a77f.js.map"
+    "main.14b03ef5.css.map": "/static/css/main.14b03ef5.css.map",
+    "main.d7e9ced2.js.map": "/static/js/main.d7e9ced2.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbf56c69.css",
-    "static/js/main.f629a77f.js"
+    "static/css/main.14b03ef5.css",
+    "static/js/main.d7e9ced2.js"
   ]
 }

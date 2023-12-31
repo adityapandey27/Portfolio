@@ -43,7 +43,7 @@ function Navbar() {
 
         <hr></hr>
       </div>
-      <span className="hamburgur1" onClick={() => setShowNav(!showNav)}>
+      <span className="hamburgur1" onClick={() => setShowNav((showNav)=>!showNav)}>
         <GiHamburgerMenu />
       </span>
       {showNav ? (
